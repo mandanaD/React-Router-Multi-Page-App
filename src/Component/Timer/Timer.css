@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "system-ui";
+}
+.container{
+    text-align: center;
+    margin-top: 40px;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+
+}
+.btn{
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: transparent;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.timer p{
+    padding: 3px;
+}
+.start-btn{
+    background: blueviolet;
+}
+.Pause-btn{
+    background: #ef3232;
+    margin-right: 10px;
+}
+.Cancel-btn{
+    background:#252323;
+    margin-left: 10px;
+}
+.Resume-btn{
+    background: blueviolet;
+    margin-right: 10px;
+
+}
+.timer input{
+    width: 60px;
+    border: none ;
+    text-align: center;
+    font-size: 40px;
+    padding-left: 3px;
+    font-family: "system-ui" !important;
+}
+.timer div{
+    width: 20px;
+    border: none ;
+    text-align: center;
+    font-size: 40px;
+}
+.timer input:focus{
+    outline: rgba(221, 160, 221, 0.59) 3px solid;
+}
+.start-btn:active{
+    outline: 3px solid rgba(165, 94, 231, 0.63);
+}

@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "system-ui";
+}
+.container{
+    text-align: center;
+    margin-top: 30px;
+}
+.watch{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 10px;
+}
+.btn{
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: transparent;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.watch p{
+    padding: 3px;
+}
+.start-btn{
+    background: blueviolet;
+}
+/*.lap-btn{*/
+/*    background: #252323;*/
+/*    margin-left: 10px;*/
+/*}*/
+.stop-btn{
+    background: #ef3232;
+    /*margin-right: 10px;*/
+}
+.reset-btn{
+    background:#252323;
+    margin-left: 10px;
+}
+.resume-btn{
+    background: blueviolet;
+    margin-right: 10px;
+
+}
