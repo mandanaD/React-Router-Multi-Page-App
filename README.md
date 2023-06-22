@@ -16,7 +16,7 @@ Each page is implemented as a separate component and is rendered based on the UR
 
 To run the React Router Pages project locally, follow these steps:
 
-1. Clone the repository: `git clone <repository_url>`
+1. Clone the repository: `git clone https://github.com/mandanaD/React-Router-Multi-Page-App.git`
 2. Navigate to the project directory: `cd react-router-pages`
 3. Install the dependencies: `npm install` or `yarn install`
 4. Start the development server: `npm start` or `yarn start`
